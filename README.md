@@ -1,6 +1,6 @@
-# Vue Pack 2017
+# Vue Pack 2019
 
-[![Build status](https://ci.appveyor.com/api/projects/status/us0kd0r6tphv2djr?svg=true)](https://ci.appveyor.com/project/madskristensen/vuepack2017)
+[![Build status](https://ci.appveyor.com/api/projects/status/whhwh234ne1d06oi?svg=true)](https://ci.appveyor.com/project/madskristensen/vuepack2019)
 
 Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VuejsPack2019)
 or get the [CI build](http://vsixgallery.com/extension/8a31a789-50bf-4e95-b4f9-b50877f2b523/).
