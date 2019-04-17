@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="8a31a789-50bf-4e95-b4f9-b50877f2b523" Version="1.2" Language="en-US" Publisher="Mads Kristensen" />
+        <DisplayName>Vue.js Pack 2019</DisplayName>
+        <Description xml:space="preserve">Contains HTML Intellisense and code snippets for the Vue.js JavaScript library</Description>
+        <MoreInfo>https://github.com/madskristensen/VuePack2019</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\icon.png</Icon>
+        <PreviewImage>Resources\Preview.png</PreviewImage>
+        <Tags>vue.js, snippets, javascript</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.Web" Version="[15.0,16.0)" DisplayName="ASP.NET and web development tools" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="registry.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="JavaScript\Snippets\snippets.pkgdef" />
+    </Assets>
+</PackageManifest>
