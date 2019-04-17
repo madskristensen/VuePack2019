@@ -94,12 +94,15 @@
   <ItemGroup>
     <Reference Include="Microsoft.WebTools.Languages.Html">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Html.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.WebTools.Languages.Html.Editor">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Html.Editor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.WebTools.Languages.Html.VS">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Html.VS.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
@@ -121,7 +124,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.SDK">
+    <PackageReference Include="Microsoft.VisualStudio.SDK" ExcludeAssets="runtime">
       <Version>16.0.200</Version>
     </PackageReference>
   </ItemGroup>
