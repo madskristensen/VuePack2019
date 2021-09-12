@@ -13,6 +13,7 @@ namespace VuePack
         {
             { "track-by", "" },
             { "v-attr", "Updates the element’s given attribute (indicated by the argument)." },
+            { "v-bind", "Binds an HTML attribute or passes property values to a child component." },
             { "v-class", "If no argument is provided, it will add the binding’s value to the element’s classList, and update the class as the value changes." },
             { "v-cloak", "This property remains on the element until the associated ViewModel finishes compilation. Combined with CSS rules such as [v-cloak] { display: none }, this directive can be used to hide un-compiled mustache bindings until the ViewModel is ready." },
             { "v-el", "Register a reference to a DOM element on its owner Vue instance for easier access. e.g. <div v-el=\"hi\"> will be accessible as vm.$$.hi." },
